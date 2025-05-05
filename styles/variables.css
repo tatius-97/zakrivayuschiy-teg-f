@@ -4,8 +4,8 @@
   --accent-font: "Press Start 2P";
   --main-font-size: 18px;
   --extra-font-size: 14px;
-  --main-font-title-weight: "wght" 700;
-  --main-font-text-weight: "wght" 400;
+  --main-font-title-weight: 700;
+  --main-font-text-weight: 400;
   --accent-font-weight: 400;
   --bg-color: #fff;
   --bg-image: repeating-linear-gradient(
