@@ -1,1 +1,39 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: "Inter-Variable";
+  --accent-font: "Press Start 2P";
+  --main-font-size: 18px;
+  --extra-font-size: 14px;
+  --main-font-title-weight: "wght" 700;
+  --main-font-text-weight: "wght" 400;
+  --accent-font-weight: 400;
+  --bg-color: #fff;
+  --bg-image: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0px,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3 0px,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --text-color: #000;
+  --accent-border: 2px solid #000;
+  --title-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --title-transcript-font-size: clamp(
+    0.875rem,
+    0.6769rem + 0.8451vw,
+    1.4375rem
+  );
+  --text-stroke-color: #fff;
+  --countour-color: #000;
+  --heart-body-color: #ff0000;
+  --hover-text-color: #fff;
+  --hover-bg-color: #000;
+}

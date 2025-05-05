@@ -9,3 +9,50 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.25);
+  }
+}
+
+@keyframes sparks {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.like-icon.is-liked .core {
+  transition: fill 0.3s 0.03s;
+  fill: var(--heart-body-color, #ff0000);
+}
+
+.like-icon.is-liked .main-body {
+  transition: fill 0.3s 0.05s;
+  fill: var(--heart-body-color, #ff0000);
+}
+
+.like-icon.is-liked .countour {
+  transition: fill 0.3s 0.06s;
+  fill: var(--heart-body-color, #ff0000);
+}
+
+.like-icon .countour {
+  transition: fill 0.1s linear;
+}
+
+.like-icon.is-liked .heart {
+  transform-origin: center;
+  animation: scale 0.3s ease-in 0.1s;
+}
+
+.like-icon.is-liked .sparks {
+  animation: sparks 0.3s ease-in 0.3s;
+}
