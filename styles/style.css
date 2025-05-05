@@ -1,6 +1,6 @@
 @supports (font-variation-settings: normal) {
   .page {
-    font-family: "Inter", sans-serif;
+    font-family: var(--main-font), "Inter", "Arial", sans-serif;
   }
 }
 
@@ -8,7 +8,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font, "Inter", sans-serif);
-  font-variation-settings: var(--main-font-text-weight, "wght" 400);
+  font-weight: var(--main-font-text-weight, "wght" 400);
   font-size: var(--main-font-size, 18px);
   background-color: var(--bg-color, #fff);
   background-image: var(
@@ -104,7 +104,7 @@
   padding-inline-start: 0.55em;
   padding-block: 0.35em;
   font-size: var(--main-font-size, 18px);
-  font-variation-settings: var(--main-font-title-weight, "wght" 700);
+  font-weight: var(--main-font-title-weight, "wght" 700);
   color: var(--text-color, #000);
   line-height: 100%;
 }
@@ -144,8 +144,6 @@
   object-fit: cover;
   object-position: center;
 }
-
-/*filters*/
 
 .grayscale {
   filter: grayscale(40%);
@@ -190,7 +188,7 @@
 
 .card__text {
   font-size: var(--main-font-size, 18px);
-  font-variation-settings: var(--main-font-text-weight, "wght" 400);
+  font-weight: var(--main-font-text-weight, "wght" 400);
   color: var(--text-color, #000);
   line-height: 1.16;
 }
@@ -290,7 +288,7 @@
 .like-icon:active .core,
 .like-icon:active .main-body {
   fill: var(--heart-body-color, #ff0000);
-} 
+}
 
 .footer {
   margin-block-start: 50px;
