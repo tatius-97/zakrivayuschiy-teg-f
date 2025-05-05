@@ -2,7 +2,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font, sans-serif);
-  font-weight: var(--main-font-text-weight);
+  font-variation-settings: "wght" var(--main-font-text-weight);
   font-size: var(--main-font-size, 18px);
   background-color: var(--bg-color, #fff);
   background-image: var(
@@ -98,7 +98,7 @@
   padding-inline-start: 0.55em;
   padding-block: 0.35em;
   font-size: var(--main-font-size, 18px);
-  font-weight: var(--main-font-title-weight);
+  font-variation-settings: "wght" var(--main-font-title-weight);
   color: var(--text-color, #000);
   line-height: 100%;
 }
@@ -182,7 +182,7 @@
 
 .card__text {
   font-size: var(--main-font-size, 18px);
-  font-weight: var(--main-font-text-weight);
+  font-variation-settings: "wght" var(--main-font-text-weight);
   color: var(--text-color, #000);
   line-height: 1.16;
 }
