@@ -178,7 +178,6 @@
 
 .card__text {
   font-size: var(--main-font-size, 18px);
-  font-variation-settings: "wght" var(--main-font-text-weight);
   color: var(--text-color, #000);
   line-height: 1.16;
 }
@@ -305,7 +304,7 @@
 
 dialog[open].modal {
   min-inline-size: 341px;
-  margin-inline: clamp(1.063rem, -10.491rem + 49.3vw, 33.875rem);
+  max-inline-size: 357px;
   display: flex;
   flex-direction: column;
   align-items: center;
